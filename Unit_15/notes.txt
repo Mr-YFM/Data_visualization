@@ -1,0 +1,5 @@
+1、在调用matplotlib是会出现中文显示乱码的情况，此时需要添加如下代码：
+    plt.rcParams['font.sans-serif']=['SimHei'] #显示中文标签
+    plt.rcParams['axes.unicode_minus']=False   #这两行需要手动设置
+
+2、
